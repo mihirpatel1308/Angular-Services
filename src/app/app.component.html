@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+      <app-add-super-hero (getUpdatedData)="getUpdatedData($event)"></app-add-super-hero>
+      <hr>
+      <app-super-heroes *ngFor="let hero of heroes; let i = index" [hero]="hero" [id]="i"
+        (getUpdatedData)="getUpdatedData($event)"></app-super-heroes>
+    </div>
+  </div>
+</div>

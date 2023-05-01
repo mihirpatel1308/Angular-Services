@@ -1,0 +1,24 @@
+{
+  "heroes": [
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "universe": "DC"
+    },
+    {
+      "id": 47,
+      "name": "Hulk",
+      "universe": "Marvel"
+    },
+    {
+      "id": 73,
+      "name": "Thor",
+      "universe": "Marvel"
+    },
+    {
+      "id": 74,
+      "name": "trytyt",
+      "universe": "Marvel"
+    }
+  ]
+}
